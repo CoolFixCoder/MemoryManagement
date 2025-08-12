@@ -1,4 +1,5 @@
-
+//since string_mutator::operator()(F) accepts any function of the appropirate signature as argument, it could among
+// other things accept a function that could throw an exception.
 #include<thread>
 #include<mutex>
 #include<string>
